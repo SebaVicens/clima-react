@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepages": "http://sebavicens.github.io/clima-react",
+  "homepages": "http://SebaVicens.github.io/clima-react",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
