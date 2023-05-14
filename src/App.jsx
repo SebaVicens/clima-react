@@ -27,10 +27,10 @@ function App() {
 
   return (
     <>
-      <h1 className='font-bold text-center text-4xl uppercase mt-10 text-white mb-10 mx-3'>Consulta el <span className='text-indigo-400'> Clima Aqui</span></h1>
+      <h1 className='font-bold text-center text-4xl uppercase mt-7 text-white mb-10 mx-3'>Consulta el <span className='text-indigo-400'> Clima Aqui</span></h1>
 
       {error && <Error>Dede Ingresar un Lugar</Error>}
-      {errorLugar && <Error>No existe el Lugar</Error>}
+      {errorLugar && <Error>El lugar ingresado es Incorrecto</Error>}
       <Formulario
         lugar={lugar}
         setLugar={setLugar}
